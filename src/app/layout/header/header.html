@@ -1,0 +1,21 @@
+<header class="px-25 py-6">
+    <nav class="flex items-center justify-between gap-10">
+        <img src="/images/SHOP.CO.png" alt="Logo" />
+        <ul class="flex items-center justify-between gap-6">
+            @for(link of navLinks(); track $index ){
+            <li>
+                <a [href]="link.path">{{link.label}}</a>
+            </li>
+            }
+        </ul>
+        <div class="flex flex-center bg-[#F0F0F0] px-4 py-3 rounded-full flex-1">
+            <img src="/images/search.svg" alt="Search" />
+            <input class="bg-[#F0F0F0] outline-none ms-2 flex-1 text-black/40" type="text"
+                placeholder="Search For Products" />
+        </div>
+        <div class="flex items-center justify-between gap-4">
+            <button><img src="/images/cart.svg" alt="Cart" /></button>
+            <button><img src="/images/person.svg" alt="Person" /></button>
+        </div>
+    </nav>
+</header>
