@@ -1,0 +1,11 @@
+<div class="px-25 flex flex-col border-t border-black/10">
+    <h2 class="text-[48px] font-bold text-center mt-18 mb-14">
+        Top Sellers
+    </h2>
+    <div class="flex gap-5 justify-center">
+        @for(product of topSellers(); track product.id){
+        <app-product [product]="product" />
+        }
+    </div>
+    <button class="border-black/10 border-1 px-20 py-3 rounded-full mt-8 text-[16px] mx-auto mb-18">View All</button>
+</div>
