@@ -1,8 +1,9 @@
 import { Component, signal } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-header',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './header.html',
   styleUrl: './header.css',
 })
@@ -10,9 +11,9 @@ export class Header {
   navLinks = signal(
     [
       { label: 'Shop', path: '/shop' },
-      { label: 'Top Selling', path: '/top-selling' },
-      { label: 'New Arrivals', path: '/new-arrivals' },
-      { label: 'Brands', path: '/brands' },
+      { label: 'Top Selling', path: '/', fragment: 'top-selling' },
+      { label: 'New Arrivals', path: '/', fragment: 'new-arrivals' },
+      { label: 'Brands', path: '/' },
     ]
   )
 }

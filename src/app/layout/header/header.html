@@ -4,7 +4,7 @@
         <ul class="flex items-center justify-between gap-6">
             @for(link of navLinks(); track $index ){
             <li>
-                <a [href]="link.path">{{link.label}}</a>
+                <a [routerLink]="link.path" [fragment]="link.fragment" class="cursor-pointer">{{link.label}}</a>
             </li>
             }
         </ul>
