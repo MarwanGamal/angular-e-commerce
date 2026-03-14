@@ -10,7 +10,7 @@ import { RouterLink } from '@angular/router';
 export class Header {
   navLinks = signal(
     [
-      { label: 'Shop', path: '/shop' },
+      { label: 'Shop', path: '/products' },
       { label: 'Top Selling', path: '/', fragment: 'top-selling' },
       { label: 'New Arrivals', path: '/', fragment: 'new-arrivals' },
       { label: 'Brands', path: '/' },

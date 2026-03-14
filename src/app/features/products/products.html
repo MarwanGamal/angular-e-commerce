@@ -1,0 +1,13 @@
+<section id="products" class="px-25 flex flex-col mb-40">
+    <h2 class="text-[48px] font-bold text-center mt-18 mb-14">
+        All Products
+    </h2>
+    <div class="flex gap-10">
+        <app-products-filter (categoryChange)="onFilterChange($event)"></app-products-filter>
+        <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 content-start">
+            @for(product of products(); track product.id){
+            <app-product [product]="product" />
+            }
+        </div>
+    </div>
+</section>
