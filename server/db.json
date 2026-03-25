@@ -34,7 +34,7 @@
       "description": "Stylish vertical striped shirt.",
       "imageUrl": "images/image 11.png",
       "category": "Shirts",
-      "rating": 5.0
+      "rating": 5
     },
     {
       "id": "6",
@@ -43,7 +43,7 @@
       "description": "Graphic T-shirt with Courage logo.",
       "imageUrl": "images/image 9.png",
       "category": "T-shirts",
-      "rating": 4.0
+      "rating": 4
     },
     {
       "id": "7",
@@ -52,7 +52,7 @@
       "description": "Comfortable loose fit shorts.",
       "imageUrl": "images/image 6.png",
       "category": "Shorts",
-      "rating": 3.0
+      "rating": 3
     },
     {
       "id": "8",
@@ -99,7 +99,7 @@
       "description": "Stylish vertical striped shirt.",
       "imageUrl": "images/image 11.png",
       "category": "Shirts",
-      "rating": 5.0
+      "rating": 5
     }
   ],
   "topSellers": [
@@ -110,7 +110,7 @@
       "description": "Stylish vertical striped shirt.",
       "imageUrl": "images/image 11.png",
       "category": "Shirts",
-      "rating": 5.0
+      "rating": 5
     },
     {
       "id": "6",
@@ -119,7 +119,7 @@
       "description": "Graphic T-shirt with Courage logo.",
       "imageUrl": "images/image 9.png",
       "category": "T-shirts",
-      "rating": 4.0
+      "rating": 4
     },
     {
       "id": "7",
@@ -128,7 +128,7 @@
       "description": "Comfortable loose fit shorts.",
       "imageUrl": "images/image 6.png",
       "category": "Shorts",
-      "rating": 3.0
+      "rating": 3
     },
     {
       "id": "8",
@@ -140,5 +140,30 @@
       "rating": 4.5
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": "2",
+      "name": "Skinny Fit Jeans",
+      "price": 240,
+      "description": "Classic skinny fit jeans perfect for everyday wear.",
+      "imageUrl": "images/image 2.png",
+      "category": "Jeans",
+      "rating": 3.5,
+      "quantity": 1,
+      "size": "Large",
+      "color": "Black"
+    },
+    {
+      "id": "4",
+      "name": "Sleeve Striped T-shirt",
+      "price": 130,
+      "description": "Striped T-shirt with comfortable fabric.",
+      "imageUrl": "images/image 3.png",
+      "category": "T-shirts",
+      "rating": 4.5,
+      "quantity": 2,
+      "size": "Large",
+      "color": "Black"
+    }
+  ]
 }
